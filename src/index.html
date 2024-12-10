@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6f3a516c37.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body class="font-poppins w-full h-screen">
+    <!-- Header -->
+    <header>
+      <!-- First nav -->
+      <nav
+        class="hidden md:flex items-center justify-end p-2 px-10 md:px-10 gap-5 text-sm text-gray-400 bg-black"
+      >
+        <a href="#" class="flex items-center hover:text-white">
+          <i class="fa-solid fa-magnifying-glass mr-1"></i>
+          <div>Search</div>
+        </a>
+        <div><a href="#" class="hover:text-white">Support</a></div>
+        <div><a href="#" class="hover:text-white">1.888.799.9666</a></div>
+        <div class="border-r border-gray-400 hover:text-white">
+          <a href="#" class="mr-5">Request a demo</a>
+        </div>
+        <div><a href="#" class="hover:text-white">Participate</a></div>
+        <a href="#" class="flex items-center hover:text-white"
+          ><div class="mr-1">Host</div>
+          <i class="fa-solid fa-angle-down"></i
+        ></a>
+        <div><a href="#" class="hover:text-white">Log in</a></div>
+      </nav>
+      <!-- Second nav -->
+      <nav class="flex p-3 md:p-10 border-b justify-between items-center">
+        <!-- Links to left and Logo-->
+        <div class="flex">
+          <div class="md: mr-10">
+            <img src="images/zoom-logo.svg" alt="Zoom logo" />
+          </div>
+          <div class="gap-8 text-gray-400 flex">
+            <div>
+              <a href="#" class="hover:text-gray-300 hidden min-[980px]:block"
+                >Products</a
+              >
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-300 hidden min-[1030px]:block"
+                >Solutions</a
+              >
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-300 hidden min-[1080px]:block"
+                >Resources</a
+              >
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-300 hidden min-[1130px]:block"
+                >Plans and prices
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Links to right/ "Buttons" -->
+        <div class="flex items-center gap-5">
+          <a href="#"><i class="fa-solid fa-bell text-cyan-300"></i></a>
+          <div class="hidden md:flex gap-5">
+            <div
+              class="border border-blue-600 rounded p-2 text-blue-600 hover:bg-blue-100"
+            >
+              <a href="#">Contact the sales department </a>
+            </div>
+            <div class="bg-blue-600 rounded p-2 text-white hover:bg-blue-700">
+              <a href="#">Register for free</a>
+            </div>
+          </div>
+          <!-- Hamburger menu -->
+          <div class="flex items-center">
+            <a
+              href="#"
+              class="fa-solid fa-bars min-[1130px]:hidden text-3xl ml-5 md:ml-0"
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section class="flex justify-center mt-20 mb-20">
+        <div class="max-w-2xl">
+          <h1
+            class="font-poppins text-4xl md:text-6xl font-extrabold mb-5 text-center"
+          >
+            <span class="text-blue-600">Simple</span> and
+            <span class="text-blue-600">powerful</span> communication
+          </h1>
+          <p class="text-center text-gray-400 px-5 text-sm md:text-base mb-6">
+            Simplify collaboration with the world's leading platform for video
+            meetings, chat and webinars.
+          </p>
+          <div class="flex justify-center gap-5">
+            <a
+              href="#"
+              class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded md:px-10"
+              >Get started
+            </a>
+            <a
+              href="#"
+              class="bg-black hover:bg-gray-900 text-white font-bold py-3 px-6 md:px-10 rounded"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- section 1 -->
+      <section
+        class="flex flex-col lg:flex-row lg:justify-center bg-slate-100 lg:pb-0 pb-20"
+      >
+        <!-- Aside -->
+        <aside class="flex flex-col lg:w-3/12">
+          <!-- <div class="bg-blue-600 flex items-center justify-center py-8">
+            <img
+              class="w-32"
+              src="/src/images/zoom-white.png"
+              alt="Zoom logo"
+            />
+          </div> -->
+          <div
+            class="bg-black pt-8 pb-8 px-5 md:flex md:flex-col md:items-center"
+          >
+            <p class="text-white text-2xl font-bold text-center">
+              A platform for unlimited human connections
+            </p>
+            <ul
+              class="flex lg:flex-col lg:justify-evenly lg:mt-8 gap-5 overflow-x-auto whitespace-nowrap pb-4 mt-4 font-bold text-white lg:h-96"
+            >
+              <button>
+                <li
+                  class="flex justify-center items-center bg-black px-4 py-1 border-cyan-200 border rounded-3xl hover:bg-blue-600"
+                >
+                  Zoom Workplace
+                </li>
+              </button>
+              <button>
+                <li
+                  class="flex justify-center items-center bg-black px-4 py-1 border-cyan-200 border rounded-3xl hover:bg-blue-600"
+                >
+                  AI Companion
+                </li>
+              </button>
+
+              <button>
+                <li
+                  class="flex justify-center items-center bg-black px-4 py-1 border-cyan-200 border rounded-3xl hover:bg-blue-600"
+                >
+                  Business services
+                </li>
+              </button>
+              <button>
+                <li
+                  class="flex justify-center items-center bg-black px-4 py-1 border-cyan-200 border rounded-3xl hover:bg-blue-600"
+                >
+                  Developer ecosystem
+                </li>
+              </button>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- Content right -->
+        <div
+          class="mt-20 lg:flex lg:items-center lg:justify-center md:flex md:items-center lg:w-3/4"
+        >
+          <!-- Removed the image -->
+          <!-- <img
+            class="px-5 pt-8 max-[1255px]:w-96 max-[1255px]:h-96 lg:w-[600px] lg:h-[600px] md:flex md:justify-center md:items-center"
+            src="/src/images/core_communication.png"
+            alt="Woman working with Computer"
+          /> -->
+
+          <div class="px-5 flex flex-col">
+            <img
+              class=""
+              src="/src/svg/product-zoom-workplace.svg"
+              alt="Text: Zoom Workplace "
+            />
+            <p class="mt-2 text-gray-400">
+              Make hybrid team collaboration more meaningful with modern
+              collaborative solutions.
+              <a class="text-blue-600 font-bold hover:underline" href="#"
+                >Läs mer</a
+              >
+            </p>
+            <div
+              class="flex mt-8 space-x-12 text-blue-600 font-semibold text-sm"
+            >
+              <ul>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-meeting-icon.svg"
+                      alt="Meeting icon"
+                    />Meetings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-chat-icon.svg"
+                      alt="Team chat icon"
+                    />Team Chat</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-phone-icon.svg"
+                      alt="meeting icon"
+                    />Phone</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-mail-cal-icon.svg"
+                      alt="meeting icon"
+                    />Mail & Calender</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-scheduler-icon.svg"
+                      alt="meeting icon"
+                    />Scheduler</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-productivity-icon.svg"
+                      alt="Productivity icon"
+                    />Productivity</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-employee-engagement-icon.svg"
+                      alt="Employee engagement icon"
+                    />Employee Engagement</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-flexible-workspaces-icon.svg"
+                      alt="Flexible Workspace icon"
+                    />Flexible Workspace</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product-workvivo-icon.svg"
+                      alt="Workvivo icon"
+                    />Workvivo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="flex items-center space-x-2 mb-2 hover:text-blue-500"
+                    href="#"
+                    ><img
+                      class="w-7 h-7 mr-2"
+                      src="/src/svg/product_app_marketplace_icon.svg"
+                      alt="App Marketplace icon"
+                    />App Marketplace</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+
+      <section class="mt-20">
+        <div class="flex flex-col justify-center items-center">
+          <div
+            class="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-16 lg:gap-32 px-5"
+          >
+            <img class="w-40" src="/src/mini-logo/logo1.png" alt="logo1" />
+            <img class="w-40 h-20" src="/src/mini-logo/logo2.png" alt="logo2" />
+            <img class="w-40 h-20" src="/src/mini-logo/logo3.png" alt="logo3" />
+            <img class="w-40 h-20" src="/src/mini-logo/logo4.png" alt="logo4" />
+            <img class="w-40 h-20" src="/src/mini-logo/logo5.png" alt="logo5" />
+            <img class="w-40 h-20" src="/src/mini-logo/logo6.png" alt="logo6" />
+            <img class="w-40 h-20" src="/src/mini-logo/logo7.png" alt="logo7" />
+            <img
+              class="w-40 h-20 lg:hidden"
+              src="/src/mini-logo/logo8.png"
+              alt="logo8"
+            />
+            <img
+              class="w-40 h-20 lg:hidden"
+              src="/src/mini-logo/logo9.png"
+              alt="logo9"
+            />
+            <img
+              class="w-40 h-20"
+              src="/src/mini-logo/logo10.png"
+              alt="logo10"
+            />
+            <img
+              class="w-40 h-20"
+              src="/src/mini-logo/logo11.png"
+              alt="logo11"
+            />
+            <img
+              class="w-40 h-20"
+              src="/src/mini-logo/logo12.png"
+              alt="logo12"
+            />
+          </div>
+        </div>
+        <div
+          class="mt-10 mb-20 px-5 flex flex-col md:items-center md:justify-center"
+        >
+          <h2 class="text-2xl md:text-4xl lg:text-5xl lg:mb-2 font-bold flex">
+            Companies worldwide choose Zoom
+          </h2>
+          <p class="text-2xl font-bold text-blue-600 hover:underline">
+            <a class="text-base md:text-2xl" href="#">Read their stories</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
